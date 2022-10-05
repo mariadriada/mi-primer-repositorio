@@ -4,6 +4,50 @@
   padding: 0;
 }
 
-body {
-  background-color: bisque;
+.container {
+  background-color: rgb(59, 196, 226);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.sun-container {
+  width: 15%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.sun-container > .circle-sun {
+  width: 70%;
+  height: 70%;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.sun-container > .ray {
+  width: 100%;
+  height: 2px;
+  background-color: yellow;
+  position: absolute;
+}
+
+.sun-container > .ray2 {
+  transform: rotate(130deg);
+  height: 6px;
+}
+
+.sun-container > .ray3 {
+  transform: rotate(150deg);
+  height: 4px;
+}
+
+.sun2 {
+  left: 50%;
+  height: 50%;
+  width: 40%;
 }
